@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">原生桌面</string>
+    <string name="popup_container_iterate_children" translatable="false">popup_container_iterate_children</string>
+    <string name="popup_app_info">应用信息</string>
+    <string name="popup_uninstall">卸载</string>
+    <string name="popup_rename_folder">重命名</string>
+</resources>

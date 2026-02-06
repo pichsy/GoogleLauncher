@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GGLauncher" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <!-- Launcher Aesthetics -->
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        
+        <!-- Customize your theme here. -->
+
+        <!-- Folder theme attributes -->
+        <item name="folderPreviewColor">@color/folder_preview_light</item>
+        <item name="folderBackgroundColor">@color/folder_background_light</item>
+        <item name="folderIconBorderColor">@android:color/transparent</item>
+        <item name="folderTextColor">@color/folder_text_color_light</item>
+        <item name="folderHintTextColor">@color/folder_hint_text_color_light</item>
+        <item name="isFolderDarkText">true</item>
+        <item name="folderStyle">@style/FolderStyleDefault</item>
+
+        <!-- Popup theme attributes -->
+        <item name="popupColorPrimary">@color/popup_color_primary_light</item>
+        <item name="popupColorSecondary">@color/popup_color_secondary_light</item>
+        <item name="popupColorTertiary">@color/popup_color_tertiary_light</item>
+        <item name="popupTextColor">@color/popup_text_color_light</item>
+        <item name="popupShadeFirst">@color/popup_shade_first_light</item>
+        <item name="popupShadeSecond">@color/popup_shade_second_light</item>
+        <item name="popupShadeThird">@color/popup_shade_third_light</item>
+    </style>
+</resources>

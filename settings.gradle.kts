@@ -1,0 +1,24 @@
+pluginManagement {
+    repositories {
+        mavenCentral()
+        maven(url = "https://jitpack.io")
+        maven(url = "https://maven.aliyun.com/repository/public")
+        maven(url = "https://maven.aliyun.com/repository/google")
+        google()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven(url = "https://jitpack.io")
+        maven(url = "https://maven.aliyun.com/repository/public")
+        maven(url = "https://maven.aliyun.com/repository/google")
+        google()
+    }
+}
+
+rootProject.name = "GoogleLauncher"
+include(":app")

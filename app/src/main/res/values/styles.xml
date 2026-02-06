@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FolderStyleDefault">
+        <item name="folderTopPadding">@dimen/folder_top_padding_default</item>
+        <item name="folderCellHeight">@dimen/folder_cell_height</item>
+        <item name="folderCellWidth">@dimen/folder_cell_width</item>
+        <item name="folderBorderSpace">@dimen/folder_border_space</item>
+        <item name="folderFooterHeight">@dimen/folder_footer_height_default</item>
+    </style>
+
+    <style name="FolderNameText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="TextHeadline" parent="FolderNameText" />
+</resources>

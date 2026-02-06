@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Folder icon preview attributes -->
+    <declare-styleable name="FolderIconPreview">
+        <attr name="folderPreviewColor" format="color" />
+        <attr name="folderIconBorderColor" format="color" />
+    </declare-styleable>
+
+    <!-- Folder theme attributes -->
+    <attr name="folderBackgroundColor" format="color" />
+    <attr name="folderTextColor" format="color" />
+    <attr name="folderHintTextColor" format="color" />
+    <attr name="folderIconRadius" format="float" />
+    <attr name="folderStyle" format="reference" />
+    <attr name="folderCellHeight" format="dimension" />
+    <attr name="folderCellWidth" format="dimension" />
+    <attr name="folderBorderSpace" format="dimension" />
+    <attr name="folderFooterHeight" format="dimension" />
+    <attr name="folderTopPadding" format="dimension" />
+    <attr name="isFolderDarkText" format="boolean" />
+
+    <!-- PagedView attributes -->
+    <attr name="pageIndicator" format="reference" />
+
+    <!-- Popup theme attributes -->
+    <attr name="popupColorPrimary" format="color" />
+    <attr name="popupColorSecondary" format="color" />
+    <attr name="popupColorTertiary" format="color" />
+    <attr name="popupTextColor" format="color" />
+    <attr name="popupShadeFirst" format="color" />
+    <attr name="popupShadeSecond" format="color" />
+    <attr name="popupShadeThird" format="color" />
+
+    <declare-styleable name="FolderPagedView">
+        <attr name="pageIndicator" />
+    </declare-styleable>
+
+    <declare-styleable name="PagedView">
+        <attr name="pageIndicator" />
+    </declare-styleable>
+</resources>

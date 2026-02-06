@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Folder colors (AOSP-aligned) -->
+    <color name="folder_text_color_light">#1F1F1F</color>
+    <color name="folder_text_color_dark">#E3E3E3</color>
+    <color name="folder_hint_text_color_light">#444746</color>
+    <color name="folder_hint_text_color_dark">#C4C7C5</color>
+    <color name="folder_background_light">#50FFFFFF</color>
+    <color name="folder_background_dark">#50000000</color>
+    <color name="folder_preview_light">#50FFFFFF</color>
+    <color name="folder_preview_dark">#50000000</color>
+
+    <color name="folder_scrim">#00000000</color>
+
+    <color name="folder_card_bg">#50FFFFFF</color>
+
+    <!-- Popup colors (AOSP-aligned light) -->
+    <color name="popup_color_primary_light">#FFFFFFFF</color>
+    <color name="popup_color_secondary_light">#F1F3F4</color>
+    <color name="popup_color_tertiary_light">#E0E0E0</color>
+    <color name="popup_text_color_light">#1F1F1F</color>
+
+    <color name="popup_shade_first_light">#F9F9F9</color>
+    <color name="popup_shade_second_light">#F1F1F1</color>
+    <color name="popup_shade_third_light">#E2E2E2</color>
+
+    <color name="popup_shade_first">@color/popup_shade_first_light</color>
+    <color name="popup_shade_second">@color/popup_shade_second_light</color>
+    <color name="popup_shade_third">@color/popup_shade_third_light</color>
+
+    <color name="popup_color_primary">@color/popup_color_primary_light</color>
+    <color name="popup_text_color">@color/popup_text_color_light</color>
+
+    <color name="materialColorSurfaceContainer">@color/popup_color_primary_light</color>
+</resources>
